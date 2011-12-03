@@ -1,5 +1,6 @@
 = Contents =
   * Install and first startup
+  * Retrieving log files
   * Creating a rider
   * Viewing a ride
   * Importing new rides
@@ -8,12 +9,13 @@
 = Install and First Startup =
 Download the installer and use this to install on your system. Once RiderViwer has been installed, and you launch it for the first time, you will be prompted to create a new rider profile.
 
+= Retrieving Log Files =
+There is a little bit of manual work here, as unfortunately version 1.0 does not include automatic download of log files. You need to copy any new logs from your Garmin device to log directory you specified in the user profile. Your Garmin device should have the .fit files located in the follow directory (this is for a Garmin Edge 500):
+{{{
+F:\Garmin\Activities
+}}}
+
+RideViewer will *not* modify any of the logs! Only reads them.
+
 = Creating a Rider =
-Enter your details. When selecting the log directory, ensure this is the location where you have all your log files stored. It must contain either .fit or .tcx files. RiderViewer will not modify these files! But it will create an additional file in this directory to summaries their details.
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Enter your details. When selecting the log directory, ensure this is the location where you have all your log files stored. It must contain either .fit or .tcx files. RiderViewer will *not* modify these files! But it will create an additional file in this directory to summaries their details.
