@@ -1,9 +1,15 @@
-RideViewer Help
+= Contents =
+  * Install and first startup
+  * Creating a rider
+  * Viewing a ride
+  * Importing new rides
+  * Extras
 
-= Introduction =
+= Install and First Startup =
+Download the installer and use this to install on your system. Once RiderViwer has been installed, and you launch it for the first time, you will be prompted to create a new rider profile.
 
-Add your content here.
-
+= Creating a Rider =
+Enter your details. When selecting the log directory, ensure this is the location where you have all your log files stored. It must contain either .fit or .tcx files. RiderViewer will not modify these files! But it will create an additional file in this directory to summaries their details.
 
 = Details =
 
