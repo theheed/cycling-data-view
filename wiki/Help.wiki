@@ -10,11 +10,14 @@
 Download the installer and use this to install on your system. Once RiderViwer has been installed, and you launch it for the first time, you will be prompted to create a new rider profile.
 
 = Retrieving Log Files =
-There is a little bit of manual work here, as unfortunately version 1.0 does not include automatic download of log files. You need to copy any new logs from your Garmin device to log directory you specified in the user profile. Your Garmin device should have the .fit files located in the follow directory (this is for a Garmin Edge 500):
-{{{
-F:\Garmin\Activities
-}}}
 
+== Garmin Fit Files (.fit) ==
+You can automatically retrieve the .fit files from you Garmin device using the Rider->Retrieve Logs options. This will copy any logs on your Garmin device which are not in you defined log directory. Note, this will copy all the files if your log directory is empty.
+
+== XML Log Files (.tcx) ==
+There is a little bit of manual work here, as this version does not include automatic download of .tcx log files. You need to copy any new logs to log directory you specified in the user profile. Copy these logs before you start RideViewer so that RideViewer will synchronise to those files on startup.
+
+== Note ==
 RideViewer will *not* modify any of the logs! Only reads them.
 
 = Creating a Rider =
