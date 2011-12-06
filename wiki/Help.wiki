@@ -6,19 +6,19 @@
   * Importing new rides
   * Extras
 
-= Install and First Startup =
+= 1 Install and First Startup =
 Download the installer and use this to install on your system. Once RiderViwer has been installed, and you launch it for the first time, you will be prompted to create a new rider profile.
 
-= Retrieving Log Files =
+= 2 Retrieving Log Files =
 
-== Garmin Fit Files (.fit) ==
+== 2.1 Garmin Fit Files (.fit) ==
 You can automatically retrieve the .fit files from you Garmin device using the Rider->Retrieve Logs options. This will copy any logs on your Garmin device which are not in you defined log directory. Note, this will copy all the files if your log directory is empty.
 
-== XML Log Files (.tcx) ==
+== 2.2 XML Log Files (.tcx) ==
 There is a little bit of manual work here, as this version does not include automatic download of .tcx log files. You need to copy any new logs to log directory you specified in the user profile. Copy these logs before you start RideViewer so that RideViewer will synchronise to those files on startup.
 
-== Note ==
+== 2.3 Note ==
 RideViewer will *not* modify any of the logs! Only reads them.
 
-= Creating a Rider =
+= 3 Creating a Rider =
 Enter your details. When selecting the log directory, ensure this is the location where you have all your log files stored. It must contain either .fit or .tcx files. RiderViewer will *not* modify these files! But it will create an additional file in this directory to summaries their details.
