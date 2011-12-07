@@ -9,7 +9,7 @@
 Download the installer and use this to install on your system. Once RiderViwer has been installed, and you launch it for the first time, you will be prompted to create a new rider profile. After creating a user, you can retrieve log files from your device.
 
 == 2 Creating a Rider ==
-Enter your details. When selecting the log directory, ensure this is the location where you will have all your log files stored. RiderViewer will *not* modify these files! But it will create an additional file in this directory to summaries their details.
+Enter your details and select a log directory where you want to have all your log files stored. RiderViewer will _not_ modify these files!
 
 == 3 Retrieving Log Files ==
 
@@ -20,4 +20,4 @@ First ensure your Garmin device is plugged in and recognised by your system (ie 
 If you only have access to .tcx files, there is a little bit of manual work here. You need to copy any new logs to the log directory you specified in the user profile. Copy these logs before you start RideViewer so that RideViewer will synchronise to those files on startup.
 
 === 3.3 Note ===
-RideViewer will *not* modify any of the logs! Only reads them.
+RideViewer will _not_ modify any of the logs! Only reads them. But it will create an additional file in the log directory to summaries their details.
