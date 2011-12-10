@@ -12,12 +12,24 @@ Download the installer and use this to install on your system. Once RiderViewer 
 Enter your details and select a log directory where you want to have all your log files stored. RiderViewer will copy the files from your device to this location (.fit) or you need to manually place the files here (.tcx).
 
 == 3 Retrieving Log Files ==
+If you are using a Garmin device, you can use the instructions in 3.1. If you are using any other device, you need to use other 3rd party tools to convert the logs to .tcx format and follow instructions in 3.2.
 
 === 3.1 Garmin Fit Files (.fit) ===
-First ensure your Garmin device is plugged in and recognised by your system (ie wait 10-20 seconds after pluging in). You can automatically retrieve the .fit files from your device using the Rider->Retrieve Logs options. This will copy any logs on your Garmin device which are not already in your defined log directory. Note, this will copy _all_ the files if your log directory is empty.
+First ensure your Garmin device is plugged in and recognised by your system (ie wait 10-20 seconds after pluging in). You can automatically retrieve the .fit files from your device using the Rider->Retrieve Logs option. This will copy any logs on your Garmin device which are not already in your defined log directory. Note, this will copy _all_ the files if your log directory is empty.
 
 === 3.2 XML Log Files (.tcx) ===
 If you only have access to .tcx files, there is a little bit of manual work here. You need to copy any new logs to the log directory you specified in the user profile. Copy these logs before you start RideViewer so that RideViewer will synchronise to those files on startup.
 
 === 3.3 Note ===
 RideViewer will _not_ modify any of the logs! Only reads them. But it will create an additional file in the log directory to summaries their details.
+
+== 4 Viewing a Ride ==
+Once you have loaded all the rides, you can select which ride to view in the top left selection dialogue. After selecting a ride, it will be loaded and all available details with be presented in the 3 _view_ components: graphical plots, Google maps overview, and ride statistics. The functionality should be intuitive (hopefully!). Move the cursor over the graphic plots and zoom in on sections as needed (left click + drag = zoom in, right click = zoom out). When you zoom, the statistic window will update with statistics for the portion of the ride you have selected. You can colour the path in the Google maps plot according to certain parameters of the ride, eg speed, heart rate etc.
+
+== 5 Extras ==
+
+=== 5.1 Totals ===
+This presents metrics for all the ride logs in your directory - distance and time.
+
+=== 5.2 Ride Collage ===
+This plots all your rides on a google map simultaneously, colouring the points according to how frequently you ride that part of the route. Warning, due to the large amount of data, producing this plot can be slow, so please be patient!
