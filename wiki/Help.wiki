@@ -6,7 +6,7 @@
   * Extras
 
 == 1 Install and First Startup ==
-Download the installer and use this to install on your system. Once RiderViwer has been installed, and you launch it for the first time, you will be prompted to create a new rider profile. After creating a user, you can retrieve log files from your device.
+Download the installer and use this to install on your system. Once RiderViewer has been installed, and you launch it for the first time, you will be prompted to create a new rider profile. After creating a user, you can retrieve log files from your Garmin device.
 
 == 2 Creating a Rider ==
 Enter your details and select a log directory where you want to have all your log files stored. RiderViewer will copy the files from your device to this location (.fit) or you need to manually place the files here (.tcx).
