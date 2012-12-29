@@ -46,6 +46,6 @@ This tool enables you to make simple edits to log files and even split them in t
 
   * You can use the search function to find values which maybe of interest.
 
-  * You can edit the values in any of the fields and save the changes. This will backup your original log file to <original_name>.orig and save the changes you made in a new file called the same as the original file, ie. <original_name>.fit.
+  * You can edit the values in any of the fields and save the changes. This will backup your original log file to 'original_name'.orig and save the changes you made in a new file called the same as the original file, ie. <original_name>.fit.
 
   * You can split a file in two if for some reason it is needed (sometimes one doesn't reset the Garmin device, etc). Select the index where you want to split the log. The index will be the first data point in the second portion of the split. Your original file (non-split) will be renamed <original_name>.orig and two split files will be created: <original_name>_pt1.fit and <original_name>_pt2.fit.
