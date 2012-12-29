@@ -38,6 +38,8 @@ This plots all your rides on a Google map simultaneously, colouring the points a
 
 Warning, due to the large amount of data, producing this plot can be slow, so please be patient!
 
+http://desmond.imageshack.us/Himg12/scaled.php?server=12&filename=screenshot2gg.png&res=medium
+
 === 5.3 Ride Interval Finder ===
 This is a great tool for comparing your efforts from one ride to all other times you have ridden the same section. You simply select the portion of a ride which you are interested in (from the 2d plot viewer), and run the Rider Interval Finder tool.
 
