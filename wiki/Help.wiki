@@ -33,6 +33,8 @@ Once you have retrieved all your rides, you can select which ride to view by usi
 === 5.1 Totals ===
 This presents metrics for all the ride logs in your directory - distance and time. You can select how you want to view the statistics: weekly, monthly, or yearly.
 
+http://img442.imageshack.us/img442/659/totalsmetric.png
+
 === 5.2 Ride Collage ===
 This plots all your rides on a Google map simultaneously, colouring the points according to how frequently you ride that part of the route. It is a nice way to see where you are riding most frequently, and what terrain you may have missed in your training area. 
 
@@ -43,6 +45,8 @@ http://desmond.imageshack.us/Himg12/scaled.php?server=12&filename=screenshot2gg.
 === 5.3 Ride Interval Finder ===
 This is a great tool for comparing your efforts from one ride to all other times you have ridden the same section. You simply select the portion of a ride which you are interested in (from the 2d plot viewer), and run the Rider Interval Finder tool.
 
+http://img541.imageshack.us/img541/2097/intervalfinder.png
+
 === 5.4 Log File Editor ===
 This tool enables you to make simple edits to log files and even split them in two if needed.
 
@@ -51,3 +55,5 @@ This tool enables you to make simple edits to log files and even split them in t
   * You can edit the values in any of the fields and save the changes. This will backup your original log file to _original name_.orig and save the changes you made in a new file called the same as the original file, ie. _original name_.fit.
 
   * You can split a file in two if for some reason it is needed (sometimes one doesn't reset the Garmin device, etc). Select the index where you want to split the log. The index will be the first data point in the second portion of the split. Your original file (non-split) will be renamed _original name_.orig and two split files will be created: _original name_pt1.fit and _original name_pt2.fit.
+
+http://img132.imageshack.us/img132/8734/logeditor.png
